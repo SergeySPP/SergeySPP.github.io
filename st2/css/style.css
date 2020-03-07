@@ -1,0 +1,260 @@
+html{
+    font-size: 14px;
+}
+.picture{
+    background: #fff url(../img/back.png) center 0 no-repeat;
+    height: 816px;
+    width: 100%; 
+}
+.onemenu{
+    text-align: center;
+    color: #ffffff;
+    margin-left: 20px;
+    transition: all 0.2s;
+}
+.box{
+    display: block;
+    height: 100px;
+}
+.onemenu:hover{
+    text-decoration: underline;
+    transition: all 0.2s;
+}
+.onetext{
+    font-size: 50px;
+    margin-top: 100px;
+    color:#ffffff;
+}
+.onetextspan{
+    font-weight: 700;
+}
+.form{
+    height: 500px;
+    background: white;
+    margin-top: 150px;
+    padding: 80px;
+    color: #666666;
+    
+}
+.form2{
+    height: 500px;
+    background: white;
+    margin-top: 150px;
+    padding: 80px;
+    padding-top: 95px;
+    color: #666666;
+}
+.form1{
+    height: 500px;
+    background: white;
+    margin-top: 150px;
+    padding: 74px;
+    color: #666666;   
+}
+.form-picture{
+    display: block;
+    padding-left: 60px;
+    
+}
+.form-header{
+    display: block;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+.form-text{
+    margin-left: -40px;
+    text-align: center;
+}
+.form-picture,.form-header,.form-text,.btn{
+    margin-top: 20px;
+}
+.form-header{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.onebtn{
+    margin-top: 30px;
+    border-radius: 18px;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px ;
+    background: none;
+    color: #666666;
+    border: 1px solid #666666;
+}
+.onebtn:hover{
+    background: #0066cc;
+    color: white;
+    border: 1px solid #0066cc;
+    box-shadow: 20px -15px 10px 5px rgba(16, 0, 3,0);
+}
+.onestrok{
+    margin-left: 8px;
+}
+.toostrok{
+    margin-left: 3px;
+}
+.headone{
+    margin-left: 30px;
+}
+.headtwo{
+    margin-left: 40px;
+}
+.headthree{
+    margin-left: 40px;
+}
+.headthree2{
+    margin-left: 20px;
+
+}
+.formsize1{
+    margin-top: 0px;
+}
+.screenbox{
+    height: 300px;
+    background: #666666;
+    width: 300px;
+
+}
+.screen2header{
+    color: #0066cc;
+}
+.screen2head{
+    margin-bottom: 40px;
+}
+.boxinvise{
+    background: none;
+    height: 500px;
+    width: 100%;
+}
+.left {
+    float: right;
+    padding: 0 20px 20px 0;
+ }
+ .screen3head{
+     margin-top: 300px;
+ }
+ .screenbox3{
+     width: 100%;
+     height: 300px;
+     background: none;
+     margin-top: 80px;
+ }
+ .screenhead3{
+     margin-top: 200px;
+     margin-bottom: 50px;
+ }
+ .textsize3{
+     margin-top: 200px;
+ }
+.headersize3{
+    margin-bottom: 20px;
+}
+.colorsize3{
+    color: #666666;
+}
+.textscreen4{
+    color: black;
+    font-weight: 700;
+    margin-left: 35px;
+}
+.picturescreen4{
+    display: inline-block;
+    transform: translateY(-200%);
+}
+.text4screen{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.twobtn{
+    margin-top: 70px;
+    margin-left: 250px;
+    border-radius: 18px;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px ;
+    background: none;
+    color: #666666;
+    border: 1px solid #666666;
+}
+.screen4{
+    margin-top: 200px;
+}
+.p{
+    display: inline-block;
+    transform: translateY(-30%);
+
+    
+}
+.headersize4{
+    display: inline-block;
+    transform: translateX(10%);
+    margin-bottom: 70px;
+}
+.screen5{
+    margin-top: 200px;
+}
+.lastpicture{
+    background: #fff url(../img/overly.png) center 0 no-repeat;
+    height: 513px;
+    width: 100%; 
+    margin-top: 200px;
+    padding-top: 120px;
+}
+.soc{
+    margin-top: 145px;
+}
+.top{
+    margin-left: 850px;
+    margin-top: 30px;
+}
+.lasttext{
+    color: white;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+.mainlast{
+    margin-left: 100px;
+}
+.imgicon1{
+    display: inline-block;
+}
+.imgicon2{
+    display: inline-block;
+}
+@media(max-width:992px){
+    .imgicon2{
+        display: none;
+    }
+    .imgicon1{
+        display: none;
+    }
+    .screen2header{
+        color: #fff;
+    }
+    .form-text{
+        margin-right: 300px;
+        text-align: center;
+    }
+    .form2{
+            margin-top: 250px;
+                height: 450px;
+           
+    }
+    .lastpicture{
+        height: 700px;
+        padding-top: 0;
+    }
+}
+@media(max-width:575px){
+    .form-text{
+        margin-left: 600px;
+        text-align: center;
+    }
+}
