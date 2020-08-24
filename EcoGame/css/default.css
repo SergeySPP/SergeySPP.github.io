@@ -305,7 +305,7 @@ box-sizing: border-box;
 @media(max-width:576px){
     .centre{
         font-size: 18px;
-    margin-left: 10%;
+    margin-left: 15%;
     }
     .post-card p{
         text-align: justify;
