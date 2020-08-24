@@ -595,6 +595,7 @@ box-sizing: border-box;
 }
 @media(max-width: 576px){
     .form-rectangle{
+        margin-left: 0px;
         width: 300px;
         height: 580px;
     }
@@ -622,4 +623,16 @@ height: 36px;
 }
 .visited{
     color: #962D2C;
+}
+.bread{
+    max-width: 1920px;
+    height: 50px;
+    background: black;
+  
+}
+.bread p{
+    padding-top: 10px;
+    font-weight: bold;
+    color: white;
+
 }
