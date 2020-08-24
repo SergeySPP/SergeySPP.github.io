@@ -148,7 +148,7 @@ box-sizing: border-box;
         font-size: 24px;
     }
     .main-btn{
-     margin-left: auto;
+    margin-left: 10%;
     }
 }
 /* Конец секции главной*/
@@ -205,7 +205,7 @@ box-sizing: border-box;
         background: black;
     }
     .main{
-        background-size: 1120px 960px;
+        background-size: 720px 960px;
     }
 }
   /* Конец секции  с фишками*/
