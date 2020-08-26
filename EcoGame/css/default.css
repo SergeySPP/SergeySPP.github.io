@@ -2,6 +2,14 @@
 html{
     overflow-x: hidden;
 }
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: none;
+
+}
 body{
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
@@ -13,22 +21,29 @@ body{
     max-height: 10000px;
      /* background: url(../img/fonmain.jpg) repeat center;  */
 }
+
 .lora{
     font-family: 'Lora', serif;
 }
 
 .section-header{
     font-size: 48px;
-    padding-top: 120px;
+    padding-top: 40px;
     font-weight: bold;
     padding-bottom: 40px;
     text-align: center;
 
 
 }
+.dop-header{
+    padding-top: 90px;
+}
 @media(max-width:576px){
     .section-header{
         font-size: 36px;
+    }
+    .fon{
+            background: url(../img/fonmain.jpg) repeat center;  
     }
 }
 /* Шапка */
@@ -119,7 +134,7 @@ color: white;
 .main-btn{
 
     display: block;
-    margin-left: 30%;
+    margin-left: 35%;
     font-weight: 600;
     margin-top: 20px;
     color: white;
@@ -127,14 +142,15 @@ width: 264px;
 height: 65px;
 
 
-background: #542827;
-border: 1px solid #FFFFFF;
+background: #A7312D;
+border: none;
 box-sizing: border-box;
 }
 .main-btn:hover{
+    border: 2px solid black;
     background: white;
     color: black;
-    border: black;
+text-decoration: none;
     transition: all 0.3s;
 }
 @media (max-width: 576px){
@@ -148,6 +164,7 @@ box-sizing: border-box;
         font-size: 24px;
     }
     .main-btn{
+        width: 200px;
     margin-left: 10%;
     }
 }
@@ -185,6 +202,7 @@ box-sizing: border-box;
   .features{
     margin-left: -10px;
       margin-top: 100px;     
+      height: 970px;
        background: url(../img/featfon.png);
   }
   .feature-stack{
@@ -238,6 +256,10 @@ margin-top: 20px;
     background: none;
     border: 1px solid #000000;
     box-sizing: border-box;
+  }
+  .mission p{
+      font-size: 18px;
+      font-weight: 600;
   }
   .section-btn:hover{
     background: black;
@@ -308,7 +330,7 @@ box-sizing: border-box;
     margin-left: 15%;
     }
     .post-card p{
-        text-align: justify;
+        text-align: left;
     }
 }
 /*Конец секции с постами*/
@@ -439,6 +461,8 @@ box-sizing: border-box;
   height: 360px; /*541*/ 
 }
 .main-header{
+    font-size: 64px;
+    padding-top: 120px;
 color: white;
 }
 
@@ -471,6 +495,9 @@ li{
         margin-left: 0;
         margin-top: 0;
         margin-bottom: 0;
+    }
+    .main-header{
+        font-size: 60px;
     }
 }
 
@@ -515,7 +542,7 @@ max-width: 100%;
 
 .form-rectangle{
 margin-left: 50px;
-    width: 621px;
+width: 621px;
 height: 605px;
 background: black;
 }
@@ -596,20 +623,24 @@ box-sizing: border-box;
 @media(max-width: 576px){
     .form-rectangle{
         margin-left: 0px;
-        width: 300px;
-        height: 580px;
+        width: 230px;
+        height: 480px;
     }
    
     .form-rectangle h2{
-        font-size: 18px;
+        font-size: 16px;
     }
        .main-contacts{
         background-size: 720px 320px;
     }
     .form-input{
-    
-        width: 253px;
+    margin-top: 30px;
+        width: 193px;
     }
+    .form-input2{
+        margin-top: 30px;
+            width: 193px;
+        }
     .support{
         margin-left: 15%;
         width: 178px;
@@ -622,7 +653,9 @@ height: 36px;
     }
 }
 .visited{
-    color: #962D2C;
+    text-shadow: 0px 4px 25px rgba(255, 255, 255, 0.75);
+    font-size: 15px;
+    font-weight: 700;
 }
 .bread{
     max-width: 1920px;
@@ -635,4 +668,8 @@ height: 36px;
     font-weight: bold;
     color: white;
 
+}
+.post-content p{
+    font-size: 18px;
+    font-weight: 600;
 }
