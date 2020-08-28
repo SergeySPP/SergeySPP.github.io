@@ -235,18 +235,20 @@ color: white;
         padding-top: 100px;
         padding-left: 0;
     }
+
     .text-rew1{
-        background: url(../img/fonmob2.png);
+        font-weight: 900;
+        background: url(../img/black.png);
         padding-top: 100px;
         padding-left: 0;
     }
     .text-rew2{
-        background: url(../img/fonmob2.png);
+        background: url(../img/black.png);
         padding-left: 0;
         padding-top: 100px;
     }
     .text-rew3{
-        background: url(../img/fonmob2.png);
+        background: url(../img/black.png);
         padding-top: 100px;
         padding-left: 0;
     }
@@ -1036,7 +1038,7 @@ border-radius: 50px;
     .form-input{
         margin-left: 20px;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 30px;
         margin-bottom: 0;
     }
     .contacts{
@@ -1056,7 +1058,8 @@ border-radius: 50px;
         margin-bottom: 0;
     }
     .head-form{
-        font-size: 18px;
+        padding-top: 30px;
+        font-size: 16px;
     }
     .position-all{
         display: none;
@@ -1210,7 +1213,7 @@ border-radius: 10px;
       }
       @media(max-width:576px){
           .card-about{
-              width: 300px;
+              width: 350px;
           }
           .img-bt{
               width: 200px;
