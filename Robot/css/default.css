@@ -1213,7 +1213,7 @@ border-radius: 10px;
       }
       @media(max-width:576px){
           .card-about{
-              width: 350px;
+              width: 320px;
           }
           .img-bt{
               width: 200px;
