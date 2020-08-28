@@ -50,7 +50,13 @@ body{
         font-size: 36px;
     }
     .mob-feature{
+        padding-top: 10px;
+        margin-top: 10px;
         display: block;
+    }
+    .rew{
+    margin-top: -70px;
+    margin-bottom: 0;
     }
 }
 /* Шапка */
