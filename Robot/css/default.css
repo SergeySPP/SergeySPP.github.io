@@ -27,10 +27,9 @@ body{
     font-weight: bold;
     padding-bottom: 10px;
     text-align: left;
-
-
 }
 .mob-feature{
+    text-align: left;
     display: none;
 }
 .newheader{
@@ -48,6 +47,7 @@ body{
 
 @media(max-width:576px){
     .section-header{
+        text-align-last: left;
         font-size: 36px;
     }
     .mob-feature{
@@ -68,9 +68,7 @@ body{
     .gradient-head{
         margin-top: 20;
     }
-    .grad{
-        margin-top: -50px;
-    }
+  
 }
 /* Шапка */
 .header-fixed{
@@ -274,6 +272,7 @@ color: white;
 @media(max-width:1380px){
     .text-rew{
         background: url(../img/sl1.png);
+        background-size: 1600px 800px;
     }
     .text-rew2{
         background: url(../img/sl3.png);
@@ -435,6 +434,7 @@ height: 41px;
 font-size: 12px;
     }
     .gradient3{
+        margin-top: 20px;
         display: block;
     }
     .video-text h2{
@@ -518,12 +518,19 @@ display: none;
     
     .feature-all{
         margin-top: 20px;
+        margin-left: auto;
+    }
+    .feature-allp{
+margin-left: auto;
     }
     .feature-all2{
        display: none;
     }
     .feature-all3{
         margin-top: 20px;
+    }
+    .grad{
+        margin-top: 0px;
     }
 }
 
@@ -561,6 +568,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 @media(max-width:576px){
 .install-all{
+    margin-left: auto;
     margin-top: 20px;
     width: 258px;
 }
@@ -657,6 +665,10 @@ padding-top: 20px;
         height: 263px;
         margin-top: 20px;
     }
+    .allcard h2{
+        font-size: 24px;
+    }
+
     .buy-all p{
         font-size: 10px;
         font-weight: 600;
@@ -800,6 +812,7 @@ border-radius: 50px;
         margin-top: 50px;
     }
     .rewiew-all{
+        margin-left: auto;
         width: 300px;
         margin-top: 30px;
     }
@@ -833,9 +846,11 @@ border-radius: 50px;
 }
 @media(max-width:576px){
     .population{
+        margin-left: auto;
         width: 300px;
     }
     .img-phone{
+     
         width: 150px;
         margin-top: 10px;
         text-align: center;
