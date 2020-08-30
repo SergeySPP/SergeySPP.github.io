@@ -600,7 +600,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 padding: 10px;
 color: white;
     width: 258px;
-    height: 463px;
+    height: 510px;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
@@ -1085,6 +1085,14 @@ background: linear-gradient(180deg, #219CF9 0%, #4E50EA 100%);
     position: relative;
    display: block;
 }
+
+
+
+
+.dropdown2 {
+    position: relative;
+   display: block;
+}
 .dropdown-content2 a {
     color: black;
     padding: 12px 16px;
@@ -1102,6 +1110,40 @@ background: linear-gradient(180deg, #219CF9 0%, #4E50EA 100%);
 .dropdown-content2 a:hover {background-color: #ddd;}
 
 .dropdown2:hover .dropdown-content2 {display: block;}
+.href-menu:hover{
+    text-decoration: none;
+color: white;
+
+}
+
+.href-menuI{
+    
+    color: white;
+    text-decoration: none;
+    
+}
+.href-menuI:hover{
+    text-decoration: none;
+    color: #219CF9;
+
+
+}
+.dropbtn2:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .href-menu:hover{
     text-decoration: none;
