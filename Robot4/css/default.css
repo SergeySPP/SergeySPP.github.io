@@ -335,8 +335,7 @@ color: white;
   
     .text-rew{
      background: url(../img/fonmob1.png) center no-repeat;
-
-     width: 460px;
+background-size: 450px;
         padding-top: 100px;
         padding-left: 0;
     }
