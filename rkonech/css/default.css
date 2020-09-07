@@ -822,7 +822,7 @@ padding-top: 20px;
     margin-top: 20px;
 }
     .buy-all p{
-        font-size: 9px;
+        font-size: 8px;
         font-weight: 600;
     padding-top: 20px;
     }
@@ -1170,9 +1170,18 @@ display: inline;
         font-size: 18px;
     }
 }
+@media(max-width:567px){
+    .menu-footer{
+        padding-left: 100px;
+margin-left: -330px;
+    }
+    .menu-footer .li-menu{
+        display: block;
+    }
+}
 @media(max-width:360px){
     .menu-footer{
-        margin-left: -130px;
+        margin-left: -350px;
     }
     .menu-footer .li-menu{
         margin-left: 0;
@@ -1182,7 +1191,7 @@ display: inline;
 @media(max-width:320px){
     .menu-footer{
         padding-left: -500px;
-        margin-left: -130px;
+        margin-left: -350px;
     }
     .li-menu{
         display: block;
